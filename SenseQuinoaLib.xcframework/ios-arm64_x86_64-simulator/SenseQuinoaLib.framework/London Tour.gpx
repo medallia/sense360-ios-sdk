@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+<!--
+    This file can be used if you want to trigger visits abroad or test out the
+    functionality of verifyDataCollection for abroad developers.
+ -->
+
+    <wpt lat="51.5014" lon="-0.1419">
+        <name>Buckingham Palace</name>
+        <time>2019-05-23T23:28:00Z</time>
+    </wpt>
+    <wpt lat="51.5014" lon="-0.1419">
+        <name>Buckingham Palace</name>
+        <time>2019-05-23T23:48:00Z</time>
+    </wpt>
+    
+    <wpt lat="51.5033" lon="-0.1195">
+        <name>London Eye</name>
+        <time>2019-05-23T23:55:00Z</time>
+    </wpt>
+    <wpt lat="51.5033" lon="-0.1195">
+        <name>London Eye</name>
+        <time>2019-05-23T00:05:00Z</time>
+    </wpt>
+    
+    <wpt lat="51.5007" lon="-0.1246">
+        <name>Big Ben Clock</name>
+        <time>2019-05-24T00:20:00Z</time>
+    </wpt>
+    <wpt lat="51.5007" lon="-0.1246">
+        <name>Big Ben Clock</name>
+        <time>2019-05-24T00:29:00Z</time>
+    </wpt>
+        
+</gpx>
