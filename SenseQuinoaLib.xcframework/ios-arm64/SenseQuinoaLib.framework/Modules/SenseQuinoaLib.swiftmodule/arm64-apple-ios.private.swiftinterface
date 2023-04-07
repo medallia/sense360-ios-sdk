@@ -1,0 +1,720 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SenseQuinoaLib
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
+import Compression
+import CoreData
+import CoreLocation
+import CoreMotion
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+public class JWTEncoder : SenseQuinoaLib.BodyEncoder {
+  public init(jwtSigner: SenseQuinoaLib.JWTSigner)
+  public init(keyIDToSigner: @escaping (Swift.String) -> SenseQuinoaLib.JWTSigner?)
+  public func encode<T>(_ value: T) throws -> Foundation.Data where T : Swift.Encodable
+  public func encodeToString<T>(_ value: T) throws -> Swift.String where T : Swift.Encodable
+  @objc deinit
+}
+public protocol Sense360SurveyDownloadDelegate {
+  func handleNewSurvey(newSurvey: Swift.Array<SenseQuinoaLib.Sense360Survey>)
+}
+@available(iOS 9.0, *)
+extension Foundation.Data {
+  public func compress(withAlgorithm algo: Foundation.Data.CompressionAlgorithm) -> Foundation.Data?
+  public func decompress(withAlgorithm algo: Foundation.Data.CompressionAlgorithm) -> Foundation.Data?
+  public enum CompressionAlgorithm {
+    case zlib
+    case lzfse
+    case lzma
+    case lz4
+    public static func == (a: Foundation.Data.CompressionAlgorithm, b: Foundation.Data.CompressionAlgorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func deflate() -> Foundation.Data?
+  public func inflate() -> Foundation.Data?
+  public func zip() -> Foundation.Data?
+  public func unzip(skipCheckSumValidation: Swift.Bool = true) -> Foundation.Data?
+  public func gzip() -> Foundation.Data?
+  public func gunzip() -> Foundation.Data?
+  public func adler32() -> SenseQuinoaLib.Adler32
+  public func crc32() -> SenseQuinoaLib.Crc32
+}
+public struct Crc32 : Swift.CustomStringConvertible {
+  public init()
+  public var checksum: Swift.UInt32
+  public mutating func advance(withChunk chunk: Foundation.Data)
+  public var description: Swift.String {
+    get
+  }
+}
+public struct Adler32 : Swift.CustomStringConvertible {
+  public init()
+  public var checksum: Swift.UInt32
+  public mutating func advance(withChunk chunk: Foundation.Data)
+  public var description: Swift.String {
+    get
+  }
+}
+public let ErrorDomain: Swift.String
+public let ErrorUnsupportedType: Swift.Int
+public let ErrorIndexOutOfBounds: Swift.Int
+public let ErrorWrongType: Swift.Int
+public let ErrorNotExist: Swift.Int
+public let ErrorInvalidJSON: Swift.Int
+public struct JSON {
+  public init(data: Foundation.Data, options opt: Foundation.JSONSerialization.ReadingOptions = .allowFragments, error: Foundation.NSErrorPointer = nil)
+  public init(_ object: Any)
+  public init(parseJSON jsonString: Swift.String)
+  @available(*, deprecated, message: "Use instead `init(parseJSON: )`")
+  public static func parse(_ json: Swift.String) -> SenseQuinoaLib.JSON
+  public mutating func merge(with other: SenseQuinoaLib.JSON) throws
+  public func merged(with other: SenseQuinoaLib.JSON) throws -> SenseQuinoaLib.JSON
+  public var object: Any {
+    get
+    set
+  }
+  public var error: Foundation.NSError? {
+    get
+  }
+  @available(*, unavailable, renamed: "null")
+  public static var nullJSON: SenseQuinoaLib.JSON {
+    get
+  }
+  public static var null: SenseQuinoaLib.JSON {
+    get
+  }
+}
+public enum Index<T> : Swift.Comparable {
+  case array(Swift.Int)
+  case dictionary(Swift.DictionaryIndex<Swift.String, T>)
+  case null
+  public static func == (lhs: SenseQuinoaLib.Index<T>, rhs: SenseQuinoaLib.Index<T>) -> Swift.Bool
+  public static func < (lhs: SenseQuinoaLib.Index<T>, rhs: SenseQuinoaLib.Index<T>) -> Swift.Bool
+}
+public typealias JSONIndex = SenseQuinoaLib.Index<SenseQuinoaLib.JSON>
+public typealias JSONRawIndex = SenseQuinoaLib.Index<Any>
+extension SenseQuinoaLib.JSON : Swift.Collection {
+  public typealias Index = SenseQuinoaLib.JSONRawIndex
+  public var startIndex: SenseQuinoaLib.JSON.Index {
+    get
+  }
+  public var endIndex: SenseQuinoaLib.JSON.Index {
+    get
+  }
+  public func index(after i: SenseQuinoaLib.JSON.Index) -> SenseQuinoaLib.JSON.Index
+  public subscript(position: SenseQuinoaLib.JSON.Index) -> (Swift.String, SenseQuinoaLib.JSON) {
+    get
+  }
+  public typealias Element = (Swift.String, SenseQuinoaLib.JSON)
+  public typealias Indices = Swift.DefaultIndices<SenseQuinoaLib.JSON>
+  public typealias Iterator = Swift.IndexingIterator<SenseQuinoaLib.JSON>
+  public typealias SubSequence = Swift.Slice<SenseQuinoaLib.JSON>
+}
+public enum JSONKey {
+  case index(Swift.Int)
+  case key(Swift.String)
+}
+public protocol JSONSubscriptType {
+  var jsonKey: SenseQuinoaLib.JSONKey { get }
+}
+extension Swift.Int : SenseQuinoaLib.JSONSubscriptType {
+  public var jsonKey: SenseQuinoaLib.JSONKey {
+    get
+  }
+}
+extension Swift.String : SenseQuinoaLib.JSONSubscriptType {
+  public var jsonKey: SenseQuinoaLib.JSONKey {
+    get
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public subscript(path: [SenseQuinoaLib.JSONSubscriptType]) -> SenseQuinoaLib.JSON {
+    get
+    set
+  }
+  public subscript(path: SenseQuinoaLib.JSONSubscriptType...) -> SenseQuinoaLib.JSON {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral value: Swift.StringLiteralType)
+  public init(unicodeScalarLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.IntegerLiteralType)
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByBooleanLiteral {
+  public init(booleanLiteral value: Swift.BooleanLiteralType)
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByFloatLiteral {
+  public init(floatLiteral value: Swift.FloatLiteralType)
+  public typealias FloatLiteralType = Swift.FloatLiteralType
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByDictionaryLiteral {
+  public init(dictionaryLiteral elements: (Swift.String, Any)...)
+  public typealias Key = Swift.String
+  public typealias Value = Any
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Any...)
+  public typealias ArrayLiteralElement = Any
+}
+extension SenseQuinoaLib.JSON : Swift.ExpressibleByNilLiteral {
+  @available(*, deprecated, message: "use JSON.null instead. Will be removed in future versions")
+  public init(nilLiteral: ())
+}
+extension SenseQuinoaLib.JSON : Swift.RawRepresentable {
+  public init?(rawValue: Any)
+  public var rawValue: Any {
+    get
+  }
+  public func rawData(options opt: Foundation.JSONSerialization.WritingOptions = JSONSerialization.WritingOptions(rawValue: 0)) throws -> Foundation.Data
+  public func rawString(_ encoding: Swift.String.Encoding = .utf8, options opt: Foundation.JSONSerialization.WritingOptions = .prettyPrinted) -> Swift.String?
+  public func rawString(_ options: [SenseQuinoaLib.writingOptionsKeys : Any]) -> Swift.String?
+  public typealias RawValue = Any
+}
+extension SenseQuinoaLib.JSON : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var array: [SenseQuinoaLib.JSON]? {
+    get
+  }
+  public var arrayValue: [SenseQuinoaLib.JSON] {
+    get
+  }
+  public var arrayObject: [Any]? {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var dictionary: [Swift.String : SenseQuinoaLib.JSON]? {
+    get
+  }
+  public var dictionaryValue: [Swift.String : SenseQuinoaLib.JSON] {
+    get
+  }
+  public var dictionaryObject: [Swift.String : Any]? {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var bool: Swift.Bool? {
+    get
+    set
+  }
+  public var boolValue: Swift.Bool {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var string: Swift.String? {
+    get
+    set
+  }
+  public var stringValue: Swift.String {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var number: Foundation.NSNumber? {
+    get
+    set
+  }
+  public var numberValue: Foundation.NSNumber {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var null: Foundation.NSNull? {
+    get
+    set
+  }
+  public func exists() -> Swift.Bool
+}
+extension SenseQuinoaLib.JSON {
+  public var url: Foundation.URL? {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON {
+  public var double: Swift.Double? {
+    get
+    set
+  }
+  public var doubleValue: Swift.Double {
+    get
+    set
+  }
+  public var float: Swift.Float? {
+    get
+    set
+  }
+  public var floatValue: Swift.Float {
+    get
+    set
+  }
+  public var int: Swift.Int? {
+    get
+    set
+  }
+  public var intValue: Swift.Int {
+    get
+    set
+  }
+  public var uInt: Swift.UInt? {
+    get
+    set
+  }
+  public var uIntValue: Swift.UInt {
+    get
+    set
+  }
+  public var int8: Swift.Int8? {
+    get
+    set
+  }
+  public var int8Value: Swift.Int8 {
+    get
+    set
+  }
+  public var uInt8: Swift.UInt8? {
+    get
+    set
+  }
+  public var uInt8Value: Swift.UInt8 {
+    get
+    set
+  }
+  public var int16: Swift.Int16? {
+    get
+    set
+  }
+  public var int16Value: Swift.Int16 {
+    get
+    set
+  }
+  public var uInt16: Swift.UInt16? {
+    get
+    set
+  }
+  public var uInt16Value: Swift.UInt16 {
+    get
+    set
+  }
+  public var int32: Swift.Int32? {
+    get
+    set
+  }
+  public var int32Value: Swift.Int32 {
+    get
+    set
+  }
+  public var uInt32: Swift.UInt32? {
+    get
+    set
+  }
+  public var uInt32Value: Swift.UInt32 {
+    get
+    set
+  }
+  public var int64: Swift.Int64? {
+    get
+    set
+  }
+  public var int64Value: Swift.Int64 {
+    get
+    set
+  }
+  public var uInt64: Swift.UInt64? {
+    get
+    set
+  }
+  public var uInt64Value: Swift.UInt64 {
+    get
+    set
+  }
+}
+extension SenseQuinoaLib.JSON : Swift.Comparable {
+}
+public func == (lhs: SenseQuinoaLib.JSON, rhs: SenseQuinoaLib.JSON) -> Swift.Bool
+public func <= (lhs: SenseQuinoaLib.JSON, rhs: SenseQuinoaLib.JSON) -> Swift.Bool
+public func >= (lhs: SenseQuinoaLib.JSON, rhs: SenseQuinoaLib.JSON) -> Swift.Bool
+public func > (lhs: SenseQuinoaLib.JSON, rhs: SenseQuinoaLib.JSON) -> Swift.Bool
+public func < (lhs: SenseQuinoaLib.JSON, rhs: SenseQuinoaLib.JSON) -> Swift.Bool
+public enum writingOptionsKeys {
+  case jsonSerialization
+  case castNilToNSNull
+  case maxObjextDepth
+  case encoding
+  public static func == (a: SenseQuinoaLib.writingOptionsKeys, b: SenseQuinoaLib.writingOptionsKeys) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Claims : Swift.Decodable, Swift.Encodable {
+  var exp: Foundation.Date? { get }
+  var nbf: Foundation.Date? { get }
+  var iat: Foundation.Date? { get }
+  func encode() throws -> Swift.String
+}
+extension SenseQuinoaLib.Claims {
+  public var exp: Foundation.Date? {
+    get
+  }
+  public var nbf: Foundation.Date? {
+    get
+  }
+  public var iat: Foundation.Date? {
+    get
+  }
+  public func encode() throws -> Swift.String
+}
+public struct Sense360Survey : Swift.Codable {
+  public var surveyId: Swift.String
+  public var surveyAvailable: Swift.Bool?
+  public var surveyDescription: Swift.String
+  public var surveyUrl: Swift.String
+  public var surveyTitle: Swift.String
+  public var projectId: Swift.String
+  public var lengthOfInterview: Swift.Int
+  public var thirdPartyUserId: Swift.String
+  public var inviteExpirationUtcMs: Swift.Int64?
+  public var priority: Swift.Int?
+  public var expirationDateUtcMs: Swift.Int64?
+  public var viewedTimestampUtc: Swift.String?
+  public init(surveyId: Swift.String, surveyAvailable: Swift.Bool?, surveyDescription: Swift.String, surveyUrl: Swift.String, surveyTitle: Swift.String, projectId: Swift.String, lengthOfInterview: Swift.Int, thirdPartyUserId: Swift.String, inviteExpirationUtcMs: Swift.Int64?, priority: Swift.Int?, expirationDateUtcMs: Swift.Int64?, viewedTimestampUtc: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum Status : CommonCrypto.CCCryptorStatus, Swift.Error, Swift.CustomStringConvertible {
+  case success
+  case paramError
+  case bufferTooSmall
+  case memoryFailure
+  case alignmentError
+  case decodeError
+  case unimplemented
+  case overflow
+  case rngFailure
+  public func toRaw() -> CommonCrypto.CCCryptorStatus
+  public var description: Swift.String {
+    get
+  }
+  public static func fromRaw(status: CommonCrypto.CCCryptorStatus) -> SenseQuinoaLib.Status?
+  public init?(rawValue: CommonCrypto.CCCryptorStatus)
+  public typealias RawValue = CommonCrypto.CCCryptorStatus
+  public var rawValue: CommonCrypto.CCCryptorStatus {
+    get
+  }
+}
+public enum CryptorError : Swift.Error, Swift.CustomStringConvertible {
+  case success
+  case invalidKeySize
+  case invalidIVSizeOrLength
+  case fail(Swift.Int32, Swift.String)
+  public var errCode: Swift.Int32 {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class Sense360Testing : ObjectiveC.NSObject {
+  @objc public static func verifyDataCollection()
+  public static func triggerSurveyNotification() throws
+  public static func triggerLocalNotifcation(with survey: SenseQuinoaLib.Sense360Survey)
+  @objc public static func autoSetThirdPartyUserId()
+  public static func insertTestSurvey(completionHandler: @escaping (Swift.Result<Swift.Bool, SenseQuinoaLib.Sense360SurveyError>) -> Swift.Void)
+  public static func triggerSurveyDownload(completionHandler: @escaping (Swift.Result<Swift.Bool, SenseQuinoaLib.Sense360SurveyError>) -> Swift.Void)
+  public static func triggerSurveyGeofencesDownload(location: CoreLocation.CLLocation, onCompletion handler: @escaping ((Swift.Bool) -> Swift.Void))
+  public static func getHomeWorkLocation() -> (Swift.Array<CoreLocation.CLLocation>, Swift.Array<CoreLocation.CLLocation>)
+  public static func forcePullConfiguration()
+  public static func triggerVisit(coordinate: CoreLocation.CLLocationCoordinate2D, horizontalAccuracy: CoreLocation.CLLocationAccuracy, arrivalDate: Foundation.Date, departureDate: Foundation.Date)
+  public static func forceErrorUpload()
+  public static func forceUpload(_ lowFreqUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, personalizedUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, checkWifi: Swift.Bool)
+  public static func forceAnnotation()
+  public static func testHoneyBadgerViaAPI(testString: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension SenseQuinoaLib.JWTEncoder {
+  public static func base64urlEncodedString(data: Foundation.Data) -> Swift.String
+}
+public struct JWTSigner {
+  public static func hs256(key: Foundation.Data) -> SenseQuinoaLib.JWTSigner
+}
+@objc final public class DemographicData : ObjectiveC.NSObject {
+  @objc public init(gender: Swift.String, age: Swift.Int, maritalStatus: Swift.String, income: Swift.Int, ethnicity: Swift.String, birthYear: Swift.Int)
+  @objc deinit
+}
+public protocol Updatable {
+  var status: SenseQuinoaLib.Status { get }
+  func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
+}
+extension SenseQuinoaLib.Updatable {
+  public func update(data: Foundation.NSData) -> Self?
+  public func update(data: Foundation.Data) -> Self?
+  public func update(byteArray: [Swift.UInt8]) -> Self?
+  public func update(string: Swift.String) -> Self?
+}
+@_hasMissingDesignatedInitializers public class HMAC : SenseQuinoaLib.Updatable {
+  public enum Algorithm {
+    case md5
+    case sha1
+    case sha224
+    case sha256
+    case sha384
+    case sha512
+    public func digestLength() -> Swift.Int
+    public static func == (a: SenseQuinoaLib.HMAC.Algorithm, b: SenseQuinoaLib.HMAC.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var status: SenseQuinoaLib.Status {
+    get
+  }
+  public init(using algorithm: SenseQuinoaLib.HMAC.Algorithm, key: Foundation.Data)
+  public init(using algorithm: SenseQuinoaLib.HMAC.Algorithm, key: Foundation.NSData)
+  public init(using algorithm: SenseQuinoaLib.HMAC.Algorithm, key: [Swift.UInt8])
+  public init(using algorithm: SenseQuinoaLib.HMAC.Algorithm, key: Swift.String)
+  @objc deinit
+  public func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
+  public func final() -> [Swift.UInt8]
+}
+public enum Sense360StartReturnCode : Swift.Int {
+  case startedSuccessfully
+  case exceptionOccurred
+  case configurationNotDownloaded
+  case sdkPermanentlyStopped
+  case sdkDeactivatedContactSense360
+  case locationPermissionNotPrecise
+  case outsideUS
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class Sense360 : ObjectiveC.NSObject {
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public static var userId: Swift.String {
+    @objc get
+  }
+  @objc public static var thirdPartyId: Swift.String {
+    @objc get
+  }
+  @objc public static var sdkStarted: Swift.Bool {
+    @objc get
+  }
+  @objc public static var permanentlyStopped: Swift.Bool {
+    @objc get
+  }
+  @objc(startWithNotificationDelegate:sendNotifications:) public static func start(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc(restoreWithNotificationDelegate:sendNotifications:) public static func restore(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc public static func disableSurveyNotifications()
+  @objc public static func enableSurveyNotifications()
+  @objc public static func areSurveyNotificationsEnabled() -> Swift.Bool
+  @objc public static func stop()
+  @objc public static func userNotificationCenterDidReceive(center: UserNotifications.UNUserNotificationCenter, didReceive: UserNotifications.UNNotificationResponse, withCompletionHandler: () -> Swift.Void) -> Swift.Bool
+  @objc public static func userNotificationCenterWillPresent(center: UserNotifications.UNUserNotificationCenter, willPresent: UserNotifications.UNNotification, withCompletionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  @objc public static func passDemographicData(_ data: SenseQuinoaLib.DemographicData)
+  @objc public static func passThirdPartyUserId(_ thirdPartyUseId: Swift.String) throws
+  @objc(userOptInWithNotificationDelegate:sendNotifications:) public static func userOptIn(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool)
+  @objc public static func userOptOut()
+  @objc public static func isUserOptedOut() -> Swift.Bool
+  public static func addNewSurveyListener(_ listener: SenseQuinoaLib.Sense360SurveyDownloadDelegate)
+  public static func getPreviouslyDownloadedSurveys() -> [SenseQuinoaLib.Sense360Survey]
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias UploadDelegate = (SenseQuinoaLib.UploadEventArgs) -> ()
+@_hasMissingDesignatedInitializers open class UploadEventArgs {
+  final public let filesUploaded: [Swift.String]
+  final public let totalFileSize: Swift.Double
+  final public let success: Swift.Bool
+  @objc deinit
+}
+public struct JWTError : Swift.Error, Swift.Equatable {
+  public let localizedDescription: Swift.String
+  public static let invalidJWTString: SenseQuinoaLib.JWTError
+  public static let osVersionToLow: SenseQuinoaLib.JWTError
+  public static let invalidPrivateKey: SenseQuinoaLib.JWTError
+  public static let invalidUTF8Data: SenseQuinoaLib.JWTError
+  public static let invalidKeyID: SenseQuinoaLib.JWTError
+  public static func == (lhs: SenseQuinoaLib.JWTError, rhs: SenseQuinoaLib.JWTError) -> Swift.Bool
+  public static func ~= (lhs: SenseQuinoaLib.JWTError, rhs: Swift.Error) -> Swift.Bool
+}
+public enum ReachabilityError : Swift.Error {
+  case FailedToCreateWithAddress(Darwin.sockaddr_in)
+  case FailedToCreateWithHostname(Swift.String)
+  case UnableToSetCallback
+  case UnableToSetDispatchQueue
+}
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+public class S360Reachability {
+  public typealias NetworkReachable = (SenseQuinoaLib.S360Reachability) -> ()
+  public typealias NetworkUnreachable = (SenseQuinoaLib.S360Reachability) -> ()
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: SenseQuinoaLib.S360Reachability.NetworkStatus, b: SenseQuinoaLib.S360Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: SenseQuinoaLib.S360Reachability.NetworkReachable?
+  public var whenUnreachable: SenseQuinoaLib.S360Reachability.NetworkUnreachable?
+  public var reachableOnWWAN: Swift.Bool
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  public var currentReachabilityStatus: SenseQuinoaLib.S360Reachability.NetworkStatus {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability)
+  convenience public init?(hostname: Swift.String)
+  convenience public init?()
+  @objc deinit
+}
+extension SenseQuinoaLib.S360Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  public var isReachable: Swift.Bool {
+    get
+  }
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public protocol SenseNotificationDelegate {
+  @objc func notificationClicked(clickData: SenseQuinoaLib.NotificationClickData)
+  @objc func notificationSent()
+  @objc func notificationsWillBeRemoved()
+}
+public enum Sense360SurveyError : Swift.Error {
+  case featureDisabled
+  case hasExceededDailyLimit
+  case brokenWebToken
+  case serverConnectivityIssue
+  case noSurveyAvailable
+  public static func == (a: SenseQuinoaLib.Sense360SurveyError, b: SenseQuinoaLib.Sense360SurveyError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SenseQuinoaLib.Sense360SurveyError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc public class NotificationClickData : ObjectiveC.NSObject {
+  @objc final public let url: Foundation.URL
+  @objc final public let surveyId: Swift.String
+  @objc public init(url: Foundation.URL, surveyId: Swift.String)
+  @objc deinit
+}
+public struct Header : Swift.Codable {
+  public var typ: Swift.String?
+  public var alg: Swift.String? {
+    get
+  }
+  public var jku: Swift.String?
+  public var jwk: Swift.String?
+  public var kid: Swift.String?
+  public var x5u: Swift.String?
+  public var x5c: [Swift.String]?
+  public var x5t: Swift.String?
+  public var x5tS256: Swift.String?
+  public var cty: Swift.String?
+  public var crit: [Swift.String]?
+  public init(typ: Swift.String? = "JWT", jku: Swift.String? = nil, jwk: Swift.String? = nil, kid: Swift.String? = nil, x5u: Swift.String? = nil, x5c: [Swift.String]? = nil, x5t: Swift.String? = nil, x5tS256: Swift.String? = nil, cty: Swift.String? = nil, crit: [Swift.String]? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct JWT<T> : Swift.Codable where T : SenseQuinoaLib.Claims {
+  public var header: SenseQuinoaLib.Header
+  public var claims: T
+  public init(header: SenseQuinoaLib.Header = Header(), claims: T)
+  public mutating func sign(using jwtSigner: SenseQuinoaLib.JWTSigner) throws -> Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol BodyEncoder : AnyObject {
+  func encode<T>(_ value: T) throws -> Foundation.Data where T : Swift.Encodable
+}
+extension Foundation.JSONEncoder : SenseQuinoaLib.BodyEncoder {
+}
+@_hasMissingDesignatedInitializers open class SurveyRecorder {
+  public static let instance: SenseQuinoaLib.SurveyRecorder
+  public func getSurveys(withPredicate predicate: Foundation.NSPredicate? = nil) -> [SenseQuinoaLib.Sense360Survey]
+  public func deleteSurveys(_ surveys: Swift.Array<SenseQuinoaLib.Sense360Survey>)
+  public func deleteAllSurveys()
+  public func markSurveyAsOld(surveyId: Swift.String)
+  public func markAllSurveysAsOld()
+  @objc deinit
+}
+@available(iOS 9.0, *)
+extension Foundation.Data.CompressionAlgorithm : Swift.Equatable {}
+@available(iOS 9.0, *)
+extension Foundation.Data.CompressionAlgorithm : Swift.Hashable {}
+extension SenseQuinoaLib.writingOptionsKeys : Swift.Equatable {}
+extension SenseQuinoaLib.writingOptionsKeys : Swift.Hashable {}
+extension SenseQuinoaLib.Status : Swift.Equatable {}
+extension SenseQuinoaLib.Status : Swift.Hashable {}
+extension SenseQuinoaLib.Status : Swift.RawRepresentable {}
+extension SenseQuinoaLib.HMAC.Algorithm : Swift.Equatable {}
+extension SenseQuinoaLib.HMAC.Algorithm : Swift.Hashable {}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Equatable {}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Hashable {}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.RawRepresentable {}
+extension SenseQuinoaLib.S360Reachability.NetworkStatus : Swift.Equatable {}
+extension SenseQuinoaLib.S360Reachability.NetworkStatus : Swift.Hashable {}
+extension SenseQuinoaLib.Sense360SurveyError : Swift.Equatable {}
+extension SenseQuinoaLib.Sense360SurveyError : Swift.Hashable {}
