@@ -1,4 +1,4 @@
-#### Version 2.2.5
+#### Version 4.6.3
 [NEW] Added support for integrating the Sense360 SDK via Swift Package Manager. For further details on this see our [online documentation](https://docs.medallia.com/?resourceId=sense360-ios-migrating-repository).
 [NEW] Added the new Sense360Testing API.
 [UPDATE] Removed the visit data storage from the SDK that is older than 7 days.
