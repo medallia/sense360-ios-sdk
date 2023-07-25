@@ -39,8 +39,7 @@ jobs:
           base_sha: ${{ steps.main_sha.outputs.main_sha }}
        
       - name: Create Pull Request
-        if: (steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'README.md'))
-          || (steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'CHANGELOG.md'))
+        if: steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'CHANGELOG.md')
         id: create_pull_request
         uses: vsoch/pull-request-action@1.0.23
         env:
