@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7/kmhNk+9dpRsE2pFPCyebiQIbE=
+		/9GLvIqlTcVmbkdTY0QtAI7DUec=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rP9KUJa3xgJm2wt+8gxm10Krfm0=
+		1n+VzTKr3nQbmmrbVPVIA/usZgc=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AyKG9LGi/Ytm5fpjJWQp2MdBhZE=
+		LAJO2wRHNLkUBQDmdiBZKskxqcQ=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AyKG9LGi/Ytm5fpjJWQp2MdBhZE=
+		LAJO2wRHNLkUBQDmdiBZKskxqcQ=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pzcZyFq6Mlb3INe8Ouzk9ZdPmyc=
+		zP1ad6EPV9uc4OLef0g2PXMseRg=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rP9KUJa3xgJm2wt+8gxm10Krfm0=
+		1n+VzTKr3nQbmmrbVPVIA/usZgc=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KLaoyAmGpwe4eZ7gAVhVA/si2DE=
+		YQOmKeVnd3zIDY1ZsxDphkJ90uk=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KLaoyAmGpwe4eZ7gAVhVA/si2DE=
+		YQOmKeVnd3zIDY1ZsxDphkJ90uk=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M1t7GDDqbVwWM/iXA+2LtMR2OFU=
+		h6RSrhRUFjkTEVC7PaGweahEg9s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -113,22 +113,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rP9KUJa3xgJm2wt+8gxm10Krfm0=
+			1n+VzTKr3nQbmmrbVPVIA/usZgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TFYeJDzXEQBkhzNiFFqe+2RtJQ9ITOsxKX7ksP+IiOo=
+			8XJFPvx9lelrOHhuHLswJwb13OKCed6QKrTIS/wc8qo=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AyKG9LGi/Ytm5fpjJWQp2MdBhZE=
+			LAJO2wRHNLkUBQDmdiBZKskxqcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WJpmoaqRyGjyumrm3j/3hFuEZeESH4q26I7QDoIP7es=
+			3CSG+j0cm77WtLnM7JBYrL5/xklctuOrsdA2QoWQt2k=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -146,44 +146,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AyKG9LGi/Ytm5fpjJWQp2MdBhZE=
+			LAJO2wRHNLkUBQDmdiBZKskxqcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WJpmoaqRyGjyumrm3j/3hFuEZeESH4q26I7QDoIP7es=
+			3CSG+j0cm77WtLnM7JBYrL5/xklctuOrsdA2QoWQt2k=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pzcZyFq6Mlb3INe8Ouzk9ZdPmyc=
+			zP1ad6EPV9uc4OLef0g2PXMseRg=
 			</data>
 			<key>hash2</key>
 			<data>
-			X5rlC1wFqU7ryhLy7wzaEr9k2XXJUA3xvyi93X3sXLI=
+			SRk35ohTjwVw5/zP+AwqYrxDgnUCTOzjmZo60bnkxa4=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rP9KUJa3xgJm2wt+8gxm10Krfm0=
+			1n+VzTKr3nQbmmrbVPVIA/usZgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TFYeJDzXEQBkhzNiFFqe+2RtJQ9ITOsxKX7ksP+IiOo=
+			8XJFPvx9lelrOHhuHLswJwb13OKCed6QKrTIS/wc8qo=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLaoyAmGpwe4eZ7gAVhVA/si2DE=
+			YQOmKeVnd3zIDY1ZsxDphkJ90uk=
 			</data>
 			<key>hash2</key>
 			<data>
-			t8eeTezH15HkI0YRba0cFJlK2cwtFb20/pjjtNaoj1k=
+			JJPMvYeIInxz8x4dOqoNJHevRGBwEqGRiRYTgr+2K7M=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -201,22 +201,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KLaoyAmGpwe4eZ7gAVhVA/si2DE=
+			YQOmKeVnd3zIDY1ZsxDphkJ90uk=
 			</data>
 			<key>hash2</key>
 			<data>
-			t8eeTezH15HkI0YRba0cFJlK2cwtFb20/pjjtNaoj1k=
+			JJPMvYeIInxz8x4dOqoNJHevRGBwEqGRiRYTgr+2K7M=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M1t7GDDqbVwWM/iXA+2LtMR2OFU=
+			h6RSrhRUFjkTEVC7PaGweahEg9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			zDDlk6SmjXryXsU8RnAcoKrPtV8ssjHE+ydOD5fKpZ8=
+			4GI/AnBIuiHIsphKiOCiuSnA+1WHRqpGP0wsINv/cq4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
