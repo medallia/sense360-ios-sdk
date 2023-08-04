@@ -465,7 +465,6 @@ public enum CryptorError : Swift.Error, Swift.CustomStringConvertible {
   public static func forceErrorUpload()
   public static func forceUpload(_ lowFreqUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, personalizedUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, checkWifi: Swift.Bool)
   public static func forceAnnotation()
-  public static func testHoneyBadgerViaAPI(testString: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
