@@ -11703,34 +11703,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "testHoneyBadgerViaAPI",
-            "printedName": "testHoneyBadgerViaAPI(testString:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14SenseQuinoaLib15Sense360TestingC21testHoneyBadgerViaAPI0F6StringySS_tFZ",
-            "mangledName": "$s14SenseQuinoaLib15Sense360TestingC21testHoneyBadgerViaAPI0F6StringySS_tFZ",
-            "moduleName": "SenseQuinoaLib",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -28678,55 +28650,55 @@
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
       "offset": 240,
-      "length": 78,
-      "value": "\"You must call Sense360.start() before Sense360Testing.verifyDataCollection()\""
+      "length": 100,
+      "value": "\"You must successfully complete Sense360.start() flow before Sense360Testing.verifyDataCollection()\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 362,
+      "offset": 384,
       "length": 36,
       "value": "\"Failure Downloading Configuration.\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 447,
       "length": 17,
       "value": "\"Pulling Sensors\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 499,
       "length": 26,
       "value": "\"Finished Pulling Sensors\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 525,
-      "length": 18,
-      "value": "\"Uploading Events\""
+      "offset": 547,
+      "length": 21,
+      "value": "\"Uploading Events...\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 597,
       "length": 28,
       "value": "\"Error While Uploading Data\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 654,
       "length": 28,
       "value": "\"Successfully Uploaded Data\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 706,
       "length": 14,
       "value": "\"Stopping SDK\""
     },
@@ -28741,55 +28713,55 @@
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
       "offset": 240,
-      "length": 78,
-      "value": "\"You must call Sense360.start() before Sense360Testing.verifyDataCollection()\""
+      "length": 100,
+      "value": "\"You must successfully complete Sense360.start() flow before Sense360Testing.verifyDataCollection()\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 362,
+      "offset": 384,
       "length": 36,
       "value": "\"Failure Downloading Configuration.\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 447,
       "length": 17,
       "value": "\"Pulling Sensors\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 499,
       "length": 26,
       "value": "\"Finished Pulling Sensors\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 525,
-      "length": 18,
-      "value": "\"Uploading Events\""
+      "offset": 547,
+      "length": 21,
+      "value": "\"Uploading Events...\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 597,
       "length": 28,
       "value": "\"Error While Uploading Data\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 654,
       "length": 28,
       "value": "\"Successfully Uploaded Data\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/sdk\/iOS\/releases\/QuinoaIOS\/QuinoaIOS\/Surveys\/Notifications\/DebugNotificationSender.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 706,
       "length": 14,
       "value": "\"Stopping SDK\""
     },
