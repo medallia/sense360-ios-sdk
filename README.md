@@ -6,4 +6,5 @@ To get started with the Medallia Sense360 SDK for iOS, please follow our [online
 ## Questions or need help
 For any Medallia Sense360 SDK questions, please submit a support ticket [here](https://help.medallia.com/).
 
-## Other
+## Sense360 SDK License Agreement
+To see the Medallia Sense360 SDK license agreement, please see our [online documentation](https://docs.medallia.com/?resourceId=sense360-sdk-license).
