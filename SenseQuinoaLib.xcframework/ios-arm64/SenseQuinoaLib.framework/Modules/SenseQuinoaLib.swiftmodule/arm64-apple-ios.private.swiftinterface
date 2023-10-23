@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SenseQuinoaLib
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import SystemConfiguration.CaptiveNetwork
@@ -140,11 +140,11 @@ extension Swift.String : SenseQuinoaLib.JSONSubscriptType {
   }
 }
 extension SenseQuinoaLib.JSON {
-  public subscript(path: [SenseQuinoaLib.JSONSubscriptType]) -> SenseQuinoaLib.JSON {
+  public subscript(path: [any SenseQuinoaLib.JSONSubscriptType]) -> SenseQuinoaLib.JSON {
     get
     set
   }
-  public subscript(path: SenseQuinoaLib.JSONSubscriptType...) -> SenseQuinoaLib.JSON {
+  public subscript(path: any SenseQuinoaLib.JSONSubscriptType...) -> SenseQuinoaLib.JSON {
     get
     set
   }
@@ -415,8 +415,8 @@ public struct Sense360Survey : Swift.Codable {
   public var expirationDateUtcMs: Swift.Int64?
   public var viewedTimestampUtc: Swift.String?
   public init(surveyId: Swift.String, surveyAvailable: Swift.Bool?, surveyDescription: Swift.String, surveyUrl: Swift.String, surveyTitle: Swift.String, projectId: Swift.String, lengthOfInterview: Swift.Int, thirdPartyUserId: Swift.String, inviteExpirationUtcMs: Swift.Int64?, priority: Swift.Int?, expirationDateUtcMs: Swift.Int64?, viewedTimestampUtc: Swift.String?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum Status : CommonCrypto.CCCryptorStatus, Swift.Error, Swift.CustomStringConvertible {
   case success
@@ -545,8 +545,8 @@ public enum Sense360StartReturnCode : Swift.Int {
   @objc public static var permanentlyStopped: Swift.Bool {
     @objc get
   }
-  @objc(startWithNotificationDelegate:sendNotifications:) public static func start(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
-  @objc(restoreWithNotificationDelegate:sendNotifications:) public static func restore(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc(startWithNotificationDelegate:sendNotifications:) public static func start(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc(restoreWithNotificationDelegate:sendNotifications:) public static func restore(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
   @objc public static func disableSurveyNotifications()
   @objc public static func enableSurveyNotifications()
   @objc public static func areSurveyNotificationsEnabled() -> Swift.Bool
@@ -555,10 +555,10 @@ public enum Sense360StartReturnCode : Swift.Int {
   @objc public static func userNotificationCenterWillPresent(center: UserNotifications.UNUserNotificationCenter, willPresent: UserNotifications.UNNotification, withCompletionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
   @objc public static func passDemographicData(_ data: SenseQuinoaLib.DemographicData)
   @objc public static func passThirdPartyUserId(_ thirdPartyUseId: Swift.String) throws
-  @objc(userOptInWithNotificationDelegate:sendNotifications:) public static func userOptIn(_ notificationDelegate: SenseQuinoaLib.SenseNotificationDelegate? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool)
+  @objc(userOptInWithNotificationDelegate:sendNotifications:) public static func userOptIn(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool)
   @objc public static func userOptOut()
   @objc public static func isUserOptedOut() -> Swift.Bool
-  public static func addNewSurveyListener(_ listener: SenseQuinoaLib.Sense360SurveyDownloadDelegate)
+  public static func addNewSurveyListener(_ listener: any SenseQuinoaLib.Sense360SurveyDownloadDelegate)
   public static func getPreviouslyDownloadedSurveys() -> [SenseQuinoaLib.Sense360Survey]
   @objc override dynamic public init()
   @objc deinit
@@ -578,7 +578,7 @@ public struct JWTError : Swift.Error, Swift.Equatable {
   public static let invalidUTF8Data: SenseQuinoaLib.JWTError
   public static let invalidKeyID: SenseQuinoaLib.JWTError
   public static func == (lhs: SenseQuinoaLib.JWTError, rhs: SenseQuinoaLib.JWTError) -> Swift.Bool
-  public static func ~= (lhs: SenseQuinoaLib.JWTError, rhs: Swift.Error) -> Swift.Bool
+  public static func ~= (lhs: SenseQuinoaLib.JWTError, rhs: any Swift.Error) -> Swift.Bool
 }
 public enum ReachabilityError : Swift.Error {
   case FailedToCreateWithAddress(Darwin.sockaddr_in)
@@ -674,16 +674,16 @@ public struct Header : Swift.Codable {
   public var cty: Swift.String?
   public var crit: [Swift.String]?
   public init(typ: Swift.String? = "JWT", jku: Swift.String? = nil, jwk: Swift.String? = nil, kid: Swift.String? = nil, x5u: Swift.String? = nil, x5c: [Swift.String]? = nil, x5t: Swift.String? = nil, x5tS256: Swift.String? = nil, cty: Swift.String? = nil, crit: [Swift.String]? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct JWT<T> : Swift.Codable where T : SenseQuinoaLib.Claims {
   public var header: SenseQuinoaLib.Header
   public var claims: T
   public init(header: SenseQuinoaLib.Header = Header(), claims: T)
   public mutating func sign(using jwtSigner: SenseQuinoaLib.JWTSigner) throws -> Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol BodyEncoder : AnyObject {
   func encode<T>(_ value: T) throws -> Foundation.Data where T : Swift.Encodable
