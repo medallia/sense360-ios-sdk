@@ -1,4 +1,18 @@
+//
+//  module.map.modulemap
+//  QuinoaIOS
+//
+//  Copyright © 2024 Sense360. All rights reserved.
+//
+
 framework module SenseQuinoaLib {
+    umbrella header "QuinoaIOS.h"
+    
+    export *
+    module * { export * }
+}
+
+module SenseQuinoaLib.Swift {
   header " SenseQuinoaLib-Swift.h"
   requires objc
 }
