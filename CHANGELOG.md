@@ -1,5 +1,6 @@
 #### 4.7.0
 * [NEW] PrivacyInfo.xcprivacy
+* 
 #### 4.6.3
 * [NEW] Added ability to integrate the Sense360 SDK via Swift Package Manager. For further details on this see our [online documentation](https://docs.medallia.com/en/?resourceId=sense360-ios-adding-spm).
 * [NEW] Added the new Sense360Testing API.
