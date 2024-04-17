@@ -1,0 +1,10 @@
+//
+//  module.map.modulemap
+//  QuinoaIOS
+//
+//  Copyright © 2024 Sense360. All rights reserved.
+//
+
+framework module SenseQuinoaLib_Private {
+    header "NSExceptionCatcher.h"
+}
