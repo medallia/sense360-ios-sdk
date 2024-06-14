@@ -1,3 +1,5 @@
+#### Version 4.7.1
+* [UPDATE] Added a distribution certificate for signing the Sense360 SDK to support the latest app code signing standards from Apple.
 
 #### Version 4.7.0
 * [BREAKING] Added support for using the Sense360 SDK with Xcode 15.2. The Sense360 SDK requires Xcode 15+ (iOS 17).

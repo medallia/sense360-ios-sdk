@@ -14146,7 +14146,7 @@
       "kind": "StringLiteral",
       "offset": 256,
       "length": 7,
-      "value": "\"4.7.0\""
+      "value": "\"4.7.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/QuinoaAppContext.swift",
