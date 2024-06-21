@@ -1,3 +1,6 @@
+#### Version 4.7.2
+* [UPDATE] Removed `Pedometer`, `Motion` and `Altimeter` sensor data from the Sense360 SDK.
+
 #### Version 4.7.1
 * [UPDATE] Added a distribution certificate for signing the Sense360 SDK to support the latest app code signing standards from Apple.
 
