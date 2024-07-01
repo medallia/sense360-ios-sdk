@@ -1,3 +1,7 @@
+#### Version 4.7.3
+* [BUGFIX] Resolved a rare crash related to other libraries swizzling the `NSURLSessionDataTask dataTaskWithRequest:completionHandler: method`
+* [BUGFIX] Addressed a code signature validation error.
+
 #### Version 4.7.2
 * [UPDATE] Removed `Pedometer`, `Motion` and `Altimeter` sensor data from the Sense360 SDK.
 
