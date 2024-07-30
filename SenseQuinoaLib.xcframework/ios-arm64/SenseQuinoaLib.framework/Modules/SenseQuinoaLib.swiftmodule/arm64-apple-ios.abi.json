@@ -55,6 +55,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Sense360SurveyDownloadDelegate",
         "printedName": "Sense360SurveyDownloadDelegate",
@@ -5325,6 +5342,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5606,6 +5640,16 @@
         "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "SenseQuinoaLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6649,6 +6693,23 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseQuinoaLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
         "declKind": "Import",
         "moduleName": "SenseQuinoaLib"
       },
@@ -7972,91 +8033,98 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 747,
+      "length": 34,
+      "value": "\"sense360:pedometer_last_recorded\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
       "length": 44,
       "value": "\"sense360:PersonalizedPlacesRepository:home\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 859,
       "length": 44,
       "value": "\"sense360:PersonalizedPlacesRepository:work\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 922,
       "length": 17,
       "value": "\"sense360:userId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 968,
       "length": 27,
       "value": "\"sense360:thirdPartyUserId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 1021,
       "length": 24,
       "value": "\"sense360:configuration\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1067,
       "length": 20,
       "value": "\"Sense360:newConfig\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1118,
       "length": 30,
       "value": "\"sense360:configuration:alarm\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1175,
       "length": 26,
       "value": "\"sense360:testing_purpose\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1230,
       "length": 31,
       "value": "\"sense360:is_surveying_enabled\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1282,
       "length": 24,
       "value": "\"sense360:is_user_in_us\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1327,
       "length": 19,
       "value": "\"sense360:features\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1369,
       "length": 22,
       "value": "\"sense360:survey_list\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1419,
       "length": 37,
       "value": "\"sense360:one_day_disable_start_mark\""
     },
@@ -8126,126 +8194,133 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 747,
+      "length": 34,
+      "value": "\"sense360:pedometer_last_recorded\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
       "length": 44,
       "value": "\"sense360:PersonalizedPlacesRepository:home\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 859,
       "length": 44,
       "value": "\"sense360:PersonalizedPlacesRepository:work\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 922,
       "length": 17,
       "value": "\"sense360:userId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 968,
       "length": 27,
       "value": "\"sense360:thirdPartyUserId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 1021,
       "length": 24,
       "value": "\"sense360:configuration\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1067,
       "length": 20,
       "value": "\"Sense360:newConfig\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1118,
       "length": 30,
       "value": "\"sense360:configuration:alarm\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1175,
       "length": 26,
       "value": "\"sense360:testing_purpose\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1230,
       "length": 31,
       "value": "\"sense360:is_surveying_enabled\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1282,
       "length": 24,
       "value": "\"sense360:is_user_in_us\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1327,
       "length": 19,
       "value": "\"sense360:features\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1369,
       "length": 22,
       "value": "\"sense360:survey_list\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1419,
       "length": 37,
       "value": "\"sense360:one_day_disable_start_mark\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1749,
+      "offset": 1817,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1965,
+      "offset": 2033,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "Array",
-      "offset": 2191,
+      "offset": 2259,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2311,
       "length": 35,
       "value": "\"Removing \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/DefaultsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2259,
+      "offset": 2327,
       "length": 4,
       "value": "\" from UserDefaults\""
     },
@@ -8325,6 +8400,62 @@
       "offset": 3427,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 15,
+      "value": "\"MotionManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 22,
+      "value": "\"sense360:MotionQueue\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 15,
+      "value": "\"use_boot_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 5,
+      "value": "\"yes\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1443,
+      "length": 6,
+      "value": "\"boot\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1698,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1855,
+      "length": 15,
+      "value": "\"not available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/MotionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3050,
+      "length": 13,
+      "value": "\"data is nil\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SurveyGeofenceDetector.swift",
@@ -11402,35 +11533,35 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 3042,
+      "offset": 3251,
       "length": 106,
       "value": "\"NotificationInterval is set by the notification_settings refresh_interval_hours: \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3351,
       "length": 4,
       "value": "\" Hour\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 3301,
+      "offset": 3510,
       "length": 102,
       "value": "\"NotificationInterval is set by the stand-alone notification_interval: \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 3395,
+      "offset": 3604,
       "length": 6,
       "value": "\" second\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/Configuration.swift",
       "kind": "IntegerLiteral",
-      "offset": 8295,
+      "offset": 8993,
       "length": 1,
       "value": "0"
     },
@@ -13987,7 +14118,7 @@
       "kind": "StringLiteral",
       "offset": 256,
       "length": 7,
-      "value": "\"4.7.3\""
+      "value": "\"4.7.0\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/QuinoaAppContext.swift",
@@ -15714,490 +15845,546 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 596,
+      "length": 3,
+      "value": "509"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 3,
+      "value": "510"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 654,
+      "length": 3,
+      "value": "516"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
       "length": 3,
       "value": "517"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 703,
+      "length": 3,
+      "value": "523"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 745,
       "length": 3,
       "value": "530"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 780,
       "length": 3,
       "value": "531"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 823,
       "length": 3,
       "value": "532"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 740,
+      "offset": 852,
       "length": 3,
       "value": "533"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 890,
       "length": 3,
       "value": "535"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 810,
+      "offset": 922,
       "length": 3,
       "value": "537"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 841,
+      "offset": 953,
       "length": 3,
       "value": "538"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 901,
+      "offset": 1013,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 937,
+      "offset": 1049,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1085,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 1122,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1052,
+      "offset": 1164,
       "length": 3,
       "value": "705"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1207,
       "length": 3,
       "value": "706"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1146,
+      "offset": 1258,
       "length": 3,
       "value": "707"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1181,
+      "offset": 1293,
       "length": 3,
       "value": "708"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1336,
       "length": 3,
       "value": "709"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1385,
       "length": 3,
       "value": "710"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1326,
+      "offset": 1438,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 1469,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1408,
+      "offset": 1520,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1432,
+      "offset": 1544,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1454,
+      "offset": 1566,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1476,
+      "offset": 1588,
       "length": 4,
       "value": "6666"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1591,
+      "offset": 1703,
       "length": 13,
       "value": "\"StrategySet\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1759,
       "length": 9,
       "value": "\"Started\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1699,
+      "offset": 1811,
       "length": 9,
       "value": "\"Stopped\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 1864,
       "length": 10,
       "value": "\"Location\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1803,
+      "offset": 1915,
       "length": 7,
       "value": "\"Visit\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1867,
+      "offset": 1979,
       "length": 23,
       "value": "\"LocationNotAuthorized\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1934,
+      "offset": 2046,
       "length": 10,
       "value": "\"Activity\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1999,
+      "offset": 2111,
       "length": 21,
       "value": "\"NotificationSentOld\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2079,
+      "offset": 2191,
       "length": 25,
       "value": "\"NotificationReceivedOld\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2261,
+      "length": 11,
+      "value": "\"Altimeter\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 2325,
+      "length": 19,
+      "value": "\"MotionManagerMeta\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 2393,
+      "length": 15,
+      "value": "\"PedometerMeta\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 11,
+      "value": "\"Pedometer\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 2504,
       "length": 6,
       "value": "\"Wifi\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2562,
       "length": 18,
       "value": "\"ReverseGeocoding\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2631,
       "length": 17,
       "value": "\"DemographicData\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2341,
+      "offset": 2701,
       "length": 18,
       "value": "\"NotificationSent\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2415,
+      "offset": 2775,
       "length": 22,
       "value": "\"NotificationReceived\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2853,
       "length": 22,
       "value": "\"NotificationCanceled\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2932,
       "length": 23,
       "value": "\"NotificationRefreshed\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2657,
+      "offset": 3017,
       "length": 28,
       "value": "\"NotificationBlockedInvalid\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2748,
+      "offset": 3108,
       "length": 29,
       "value": "\"NotificationBlockedOptedOut\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 3208,
       "length": 37,
       "value": "\"NotificationBlockedPermissionDenied\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 3300,
       "length": 21,
       "value": "\"NotificationExpired\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 3384,
       "length": 29,
       "value": "\"NotificationIntervalsNotSet\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 3482,
       "length": 35,
       "value": "\"NotificationRefreshIntervalNotSet\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3205,
+      "offset": 3565,
       "length": 13,
       "value": "\"LocationOff\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3628,
       "length": 16,
       "value": "\"LocationDenied\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3347,
+      "offset": 3707,
       "length": 28,
       "value": "\"LocationInUseAuthorization\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3430,
+      "offset": 3790,
       "length": 21,
       "value": "\"OldEventFileDeleted\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3514,
+      "offset": 3874,
       "length": 29,
       "value": "\"PersonalizedPlaceIdentified\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
+      "offset": 3952,
       "length": 15,
       "value": "\"FilesUploaded\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3665,
+      "offset": 4025,
       "length": 24,
       "value": "\"PersonalizedPlaceVisit\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 4103,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3793,
+      "offset": 4153,
       "length": 9,
       "value": "\"Warning\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3843,
+      "offset": 4203,
       "length": 7,
       "value": "\"Debug\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 3891,
+      "offset": 4251,
       "length": 7,
       "value": "\"Fatal\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4020,
+      "offset": 4380,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4068,
+      "offset": 4428,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4109,
+      "offset": 4469,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4154,
+      "offset": 4514,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4199,
+      "offset": 4559,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4245,
+      "offset": 4605,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4296,
+      "offset": 4656,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4348,
+      "offset": 4708,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4408,
+      "offset": 4768,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4452,
+      "offset": 4812,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4504,
+      "offset": 4864,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4562,
+      "offset": 4922,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4589,
+      "offset": 4949,
       "length": 2,
       "value": "-1"
     },
@@ -16267,168 +16454,196 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 596,
+      "length": 3,
+      "value": "509"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 3,
+      "value": "510"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 654,
+      "length": 3,
+      "value": "516"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
       "length": 3,
       "value": "517"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 703,
+      "length": 3,
+      "value": "523"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 745,
       "length": 3,
       "value": "530"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 780,
       "length": 3,
       "value": "531"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 823,
       "length": 3,
       "value": "532"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 740,
+      "offset": 852,
       "length": 3,
       "value": "533"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 890,
       "length": 3,
       "value": "535"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 810,
+      "offset": 922,
       "length": 3,
       "value": "537"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 841,
+      "offset": 953,
       "length": 3,
       "value": "538"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 901,
+      "offset": 1013,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 937,
+      "offset": 1049,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1085,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 1122,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1052,
+      "offset": 1164,
       "length": 3,
       "value": "705"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1207,
       "length": 3,
       "value": "706"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1146,
+      "offset": 1258,
       "length": 3,
       "value": "707"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1181,
+      "offset": 1293,
       "length": 3,
       "value": "708"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1336,
       "length": 3,
       "value": "709"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1385,
       "length": 3,
       "value": "710"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1326,
+      "offset": 1438,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 1469,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1408,
+      "offset": 1520,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1432,
+      "offset": 1544,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1454,
+      "offset": 1566,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1476,
+      "offset": 1588,
       "length": 4,
       "value": "6666"
     },
@@ -16498,168 +16713,196 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 596,
+      "length": 3,
+      "value": "509"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 3,
+      "value": "510"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 654,
+      "length": 3,
+      "value": "516"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
       "length": 3,
       "value": "517"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 703,
+      "length": 3,
+      "value": "523"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 745,
       "length": 3,
       "value": "530"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 780,
       "length": 3,
       "value": "531"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 823,
       "length": 3,
       "value": "532"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 740,
+      "offset": 852,
       "length": 3,
       "value": "533"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 890,
       "length": 3,
       "value": "535"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 810,
+      "offset": 922,
       "length": 3,
       "value": "537"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 841,
+      "offset": 953,
       "length": 3,
       "value": "538"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 901,
+      "offset": 1013,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 937,
+      "offset": 1049,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1085,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 1122,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1052,
+      "offset": 1164,
       "length": 3,
       "value": "705"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1207,
       "length": 3,
       "value": "706"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1146,
+      "offset": 1258,
       "length": 3,
       "value": "707"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1181,
+      "offset": 1293,
       "length": 3,
       "value": "708"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1336,
       "length": 3,
       "value": "709"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1385,
       "length": 3,
       "value": "710"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1326,
+      "offset": 1438,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 1469,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1408,
+      "offset": 1520,
       "length": 4,
       "value": "5001"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1432,
+      "offset": 1544,
       "length": 4,
       "value": "5002"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1454,
+      "offset": 1566,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1476,
+      "offset": 1588,
       "length": 4,
       "value": "6666"
     },
@@ -17236,6 +17479,55 @@
       "offset": 620,
       "length": 5,
       "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 18,
+      "value": "\"AltimeterManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 27,
+      "value": "\"sense360:AltimeterManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1024,
+      "length": 11,
+      "value": "\"available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 15,
+      "value": "\"not available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 10,
+      "value": "\"pressure\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2066,
+      "length": 19,
+      "value": "\"relative_altitude\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/AltimeterManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 36,
+      "value": "\"altitude data is nil with no error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/EventToJsonConverter.swift",
@@ -18157,56 +18449,98 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1274,
+      "offset": 1012,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1816,
       "length": 16,
       "value": "\"alreadyStarted\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1542,
+      "offset": 1882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1902,
+      "offset": 2242,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2102,
+      "offset": 2447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2728,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2810,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2903,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 3278,
       "length": 10,
       "value": "\"interval\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "StringLiteral",
-      "offset": 2976,
+      "offset": 3757,
       "length": 6,
       "value": "\"dist\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3305,
+      "offset": 4086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/SensorByConfigPullingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4475,
       "length": 5,
       "value": "false"
     },
@@ -19315,6 +19649,111 @@
       "offset": 196,
       "length": 24,
       "value": "\"SenseQuinoaLib.SignificantChangeManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 18,
+      "value": "\"PedometerManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 27,
+      "value": "\"sense360:PedometerManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1288,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 25,
+      "value": "\"step_counting_available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 20,
+      "value": "\"distance_available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 26,
+      "value": "\"floor_counting_available\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2607,
+      "length": 12,
+      "value": "\"historical\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2902,
+      "length": 10,
+      "value": "\"realtime\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3189,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3459,
+      "length": 12,
+      "value": "\"start_date\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3547,
+      "length": 10,
+      "value": "\"end_date\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 17,
+      "value": "\"number_of_steps\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3746,
+      "length": 10,
+      "value": "\"distance\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3874,
+      "length": 17,
+      "value": "\"floors_ascended\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/PedometerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4017,
+      "length": 18,
+      "value": "\"floors_descended\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/ActivityManager.swift",
@@ -22539,679 +22978,686 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 964,
+      "offset": 861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 997,
+      "offset": 894,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1026,
+      "offset": 923,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1003,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1081,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1256,
+      "offset": 1153,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1323,
+      "offset": 1220,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1370,
+      "offset": 1272,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1405,
+      "offset": 1319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1452,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1441,
+      "offset": 1485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1575,
+      "offset": 1619,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1612,
+      "offset": 1656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1651,
+      "offset": 1695,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1682,
+      "offset": 1726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1712,
+      "offset": 1756,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1797,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1807,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1804,
+      "offset": 1848,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1832,
+      "offset": 1876,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1868,
+      "offset": 1912,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1889,
+      "offset": 1933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2224,
+      "offset": 2268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2255,
+      "offset": 2299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2290,
+      "offset": 2334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2372,
+      "offset": 2416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2390,
+      "offset": 2434,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2469,
+      "offset": 2513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2562,
+      "offset": 2606,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2642,
+      "offset": 2686,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4534,
       "length": 35,
       "value": "\"No RTS Settings. RTS is disabled.\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4406,
+      "offset": 4590,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
+      "offset": 4625,
       "length": 43,
       "value": "\"real_time_surveys_enabled = \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4483,
+      "offset": 4667,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4768,
+      "offset": 4952,
       "length": 47,
       "value": "\"No RTS Settings. Download Survey is disabled.\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4836,
+      "offset": 5020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4871,
+      "offset": 5055,
       "length": 54,
       "value": "\"download_surveys_enabled = \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4924,
+      "offset": 5108,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5234,
+      "offset": 5418,
       "length": 51,
       "value": "\"No RTS Settings. Survey Notification is disabled.\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5306,
+      "offset": 5490,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5341,
+      "offset": 5525,
       "length": 62,
       "value": "\"survey_notifications_enabled = \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5402,
+      "offset": 5586,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6331,
-      "length": 39,
-      "value": "\"Configuration Decoding Error \""
+      "offset": 6503,
+      "length": 32,
+      "value": "\"Config Decoding Error \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6369,
+      "offset": 6534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7263,
-      "length": 53,
-      "value": "\"Error setting Configuration security keys: \""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7315,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7688,
+      "offset": 7177,
       "length": 19,
       "value": "\"real_time_surveys\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7856,
+      "offset": 7345,
       "length": 21,
       "value": "\"insert_test_surveys\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8017,
+      "offset": 7506,
       "length": 18,
       "value": "\"multiple_surveys\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8184,
+      "offset": 7673,
       "length": 23,
       "value": "\"approximate_locations\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8366,
+      "offset": 7855,
       "length": 17,
       "value": "\"console_logging\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8573,
+      "offset": 8062,
       "length": 21,
       "value": "\"No feature detected\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10677,
+      "offset": 10166,
       "length": 28,
       "value": "\"RTS Decoding Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10704,
+      "offset": 10193,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10730,
+      "offset": 10219,
       "length": 57,
       "value": "\"RTS Default Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10783,
+      "offset": 10272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10786,
+      "offset": 10275,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10812,
+      "offset": 10301,
       "length": 59,
       "value": "\"RTS Override Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10867,
+      "offset": 10356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10870,
+      "offset": 10359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11790,
+      "offset": 11279,
       "length": 36,
       "value": "\"Test Survey Decoding Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 11314,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11851,
+      "offset": 11340,
       "length": 65,
       "value": "\"Test Survey Default Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11912,
+      "offset": 11401,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11915,
+      "offset": 11404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11941,
+      "offset": 11430,
       "length": 67,
       "value": "\"Test Survey Override Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12004,
+      "offset": 11493,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12007,
+      "offset": 11496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12076,
+      "offset": 11565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12094,
+      "offset": 11583,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12903,
+      "offset": 12392,
       "length": 41,
       "value": "\"Multiple Surveys Decoding Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12943,
+      "offset": 12432,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12969,
+      "offset": 12458,
       "length": 70,
       "value": "\"Multiple Surveys Default Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13035,
+      "offset": 12524,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13038,
+      "offset": 12527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13064,
+      "offset": 12553,
       "length": 72,
       "value": "\"Multiple Surveys Override Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13132,
+      "offset": 12621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13135,
+      "offset": 12624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13209,
+      "offset": 12698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14061,
+      "offset": 13550,
       "length": 45,
       "value": "\"Approximate Location Decoding Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14105,
+      "offset": 13594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14131,
+      "offset": 13620,
       "length": 74,
       "value": "\"Approximate Location Default Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14201,
+      "offset": 13690,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14204,
+      "offset": 13693,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14230,
+      "offset": 13719,
       "length": 76,
       "value": "\"Approximate Location Override Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14302,
+      "offset": 13791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14305,
+      "offset": 13794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14384,
+      "offset": 13873,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15193,
+      "offset": 14682,
       "length": 40,
       "value": "\"Console Logging Decoding Error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15232,
+      "offset": 14721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15258,
+      "offset": 14747,
       "length": 69,
       "value": "\"Console Logging Default Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15323,
+      "offset": 14812,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15326,
+      "offset": 14815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15352,
+      "offset": 14841,
       "length": 71,
       "value": "\"Console Logging Override Settings - \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15419,
+      "offset": 14908,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15422,
+      "offset": 14911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/sense360\/builds\/sense360-ios-sdk\/release\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15495,
+      "offset": 14984,
       "length": 5,
       "value": "false"
     },
