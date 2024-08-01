@@ -1,3 +1,6 @@
+#### Version 4.7.4
+* [BUGFIX] Fixed an issue causing occasional crashes that occurred on the `sense360:DefaultDispatcher` thread.
+
 #### Version 4.7.3
 * [BUGFIX] Resolved a rare crash related to other libraries swizzling the `NSURLSessionDataTask dataTaskWithRequest:completionHandler: method`
 * [BUGFIX] Addressed a code signature validation error.
