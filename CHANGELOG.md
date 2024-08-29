@@ -1,3 +1,6 @@
+#### Version 4.7.5
+* [BUGFIX] Fixed an issue causing occasional deadlocks in background processing.
+
 #### Version 4.7.4
 * [BUGFIX] Fixed an issue causing occasional crashes that occurred on the `sense360:DefaultDispatcher` thread.
 

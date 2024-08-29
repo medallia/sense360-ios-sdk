@@ -6,7 +6,6 @@ import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CoreData
 import CoreLocation
-import CoreMotion
 import Foundation
 @_exported import SenseQuinoaLib
 import SenseQuinoaLib_Private
