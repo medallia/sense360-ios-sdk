@@ -1,3 +1,6 @@
+#### Version 4.7.6
+* [BUGFIX] Resolved various threading-related issues to improve stability and performance.
+
 #### Version 4.7.5
 * [BUGFIX] Fixed an issue causing occasional deadlocks in background processing.
 
