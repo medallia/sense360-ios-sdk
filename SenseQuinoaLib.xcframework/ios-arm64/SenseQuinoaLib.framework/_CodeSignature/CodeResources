@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A/eO11O4c1vmQrClk1gCmuAPx2A=
+		qvS5XN0SQx6ltzAbDz7XmKjrnbs=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8dnkki/gVoRCNYbg4TOOt+sVieg=
+		S8jTxw3llnTD+dpGX3B1E5WyUmE=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		e7ZkO9wowYtpGoZRnO1gwkNC6oo=
+		ZwZY3Mqy3JY4impw7OfNbE85AW4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YZHcttljwqW/+P7AAnEnPH41XKfNz7dlekSnKUpyMGE=
+			EE6ECjKGxToVQw/kBIV4iNCGo8HdVBG5EAREQdtl2oo=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMhm9bskgaHx2HESbvWneaTKyxm/8qFf8oSryQnt7oY=
+			Vpu0xpll8IpKIGjHaE8UFfZYdTbbmKO/GL07xJMBNNA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
