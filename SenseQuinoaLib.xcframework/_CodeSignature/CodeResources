@@ -14,11 +14,11 @@
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/Info.plist</key>
 		<data>
-		qvS5XN0SQx6ltzAbDz7XmKjrnbs=
+		b5tBR5zNL4qXZrZLdzGmMdVg7DE=
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		S8jTxw3llnTD+dpGX3B1E5WyUmE=
+		Erl+03cA971Tm6Ac6JqznCzCQQw=
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/SenseQuinoaLib</key>
 		<data>
-		WIVBwAH3zFBYpEXno6vAUciwXGE=
+		pcUz/6Uf5dyUzHk7cRx0j6FROJY=
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/VisitModel.momd/VersionInfo.plist</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>ios-arm64/SenseQuinoaLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4nYNOkGLXieY4ulCgS2Ia7c/XAY=
+		EgKLnqKNbYDcQCdrpCFBwjB2ATg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Headers/ SenseQuinoaLib-Swift.h</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Info.plist</key>
 		<data>
-		pjTOtX07en4F5leFgwjmWn5FSSI=
+		LLZPhPqt/lVPuiPSDG0N6dNF3lM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rNXlFye8rjLALbBQdWd1n3ha2fs=
+		g/1un0w1vGUTbQoKfJHiYpPgByw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rNXlFye8rjLALbBQdWd1n3ha2fs=
+		g/1un0w1vGUTbQoKfJHiYpPgByw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/SenseQuinoaLib</key>
 		<data>
-		XE13xVnl+WzZJV3iDHHekzQl6xU=
+		HPYQbvUxhR2O1onyh/F1qPelgRU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/VisitModel.momd/VersionInfo.plist</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tfKnYjhJDkb8WSwkkL1hsJEK3CU=
+		ZuEEmj6+LfY5JzSAWHSpmVeYbUE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -201,22 +201,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qvS5XN0SQx6ltzAbDz7XmKjrnbs=
+			b5tBR5zNL4qXZrZLdzGmMdVg7DE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zOIqCSAjT9+p35jkca/fJwN4O8T5PmV7cWIgO7EGcXM=
+			Rn4LN8wlMUk9hTnW/Z0L+cQ8RQYnebEXDDniYVKOF34=
 			</data>
 		</dict>
 		<key>ios-arm64/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S8jTxw3llnTD+dpGX3B1E5WyUmE=
+			Erl+03cA971Tm6Ac6JqznCzCQQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			EE6ECjKGxToVQw/kBIV4iNCGo8HdVBG5EAREQdtl2oo=
+			u9aLuXGGO6FMOitR9IfOApsUX4srN/XEIHatWwZTkW4=
 			</data>
 		</dict>
 		<key>ios-arm64/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -300,11 +300,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WIVBwAH3zFBYpEXno6vAUciwXGE=
+			pcUz/6Uf5dyUzHk7cRx0j6FROJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			HrMUY5D5z8h8q+SyawFJKR6Z52HeIRhyKy+MeSCtwkE=
+			ilKMQUV6cMkJuUDq4ZbQlu5Kd1ZKfKZSFZIEx0z06Io=
 			</data>
 		</dict>
 		<key>ios-arm64/SenseQuinoaLib.framework/VisitModel.momd/VersionInfo.plist</key>
@@ -377,11 +377,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4nYNOkGLXieY4ulCgS2Ia7c/XAY=
+			EgKLnqKNbYDcQCdrpCFBwjB2ATg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5MCyXMbUfETshRFrButKAZJUYE/W2iUfUB5+53uk4vo=
+			gaG3m/9f9nTdmv9jzJIsNSJujIPM+Rc7HBtU8fYl8RM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Headers/ SenseQuinoaLib-Swift.h</key>
@@ -410,22 +410,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pjTOtX07en4F5leFgwjmWn5FSSI=
+			LLZPhPqt/lVPuiPSDG0N6dNF3lM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1rqi2JJVq46YeiOydS3WJchur4nmzxV127KKiowlsyE=
+			9HRNIBcSwNSIde/pY3UFgwU6GCeVw1Gy4uTQmG5Fq/Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rNXlFye8rjLALbBQdWd1n3ha2fs=
+			g/1un0w1vGUTbQoKfJHiYpPgByw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QqQDns9oIS6EP+74VL8FioZ7acW53dCtRJq9czcDQAM=
+			k3JVlIKuKxRCDLaa2EMJW5RP79T/6BhsxxC1bnWKS+4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -465,11 +465,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rNXlFye8rjLALbBQdWd1n3ha2fs=
+			g/1un0w1vGUTbQoKfJHiYpPgByw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QqQDns9oIS6EP+74VL8FioZ7acW53dCtRJq9czcDQAM=
+			k3JVlIKuKxRCDLaa2EMJW5RP79T/6BhsxxC1bnWKS+4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -553,11 +553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XE13xVnl+WzZJV3iDHHekzQl6xU=
+			HPYQbvUxhR2O1onyh/F1qPelgRU=
 			</data>
 			<key>hash2</key>
 			<data>
-			T4GSkorft1qg2WzPC+OCnxhEmfFxUF6IhFDmlvz/QPQ=
+			J5nnnL4L3CHw1e/pz/O4WCbdzx8kP03gGEee6pe+jq8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SenseQuinoaLib.framework/VisitModel.momd/VersionInfo.plist</key>
@@ -630,11 +630,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfKnYjhJDkb8WSwkkL1hsJEK3CU=
+			ZuEEmj6+LfY5JzSAWHSpmVeYbUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			UTxYuRFx9DD4wNLYlIFzzd5hOzA9zipOU8mqjbTxodM=
+			24+0/E5/A/aZeM15hY85UJRF8QkmrICaw62lqlUNUw4=
 			</data>
 		</dict>
 	</dict>
