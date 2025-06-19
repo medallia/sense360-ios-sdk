@@ -1,3 +1,6 @@
+#### Version 4.7.7
+* [BUGFIX] Resolved various threading-related issues to improve stability and performance.
+
 #### Version 4.7.6
 * [BUGFIX] Resolved various threading-related issues to improve stability and performance.
 
